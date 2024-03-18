@@ -82,7 +82,7 @@ export default function ResponsiveDrawer() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap component="div">
-            
+            Welcome user !!!
           </Typography>
         </Toolbar>
       </AppBar>
