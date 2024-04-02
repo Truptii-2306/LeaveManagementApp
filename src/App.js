@@ -1,6 +1,6 @@
 import './App.css';
 import { colors, createTheme,ThemeProvider } from "@mui/material";
-import ResponsiveDrawer from './Drawer.tsx'
+import Display from './components/Display';
 
 const myTheme=createTheme({
   satus:{
@@ -8,10 +8,10 @@ const myTheme=createTheme({
   },
   palette:{
     primary:{
-      main:colors.green[300]
+      main:colors.blue[800]
     },
     secondary:{
-      main:colors.teal[400],
+      main:colors.green[600],
     },
   }
 })
@@ -20,7 +20,7 @@ function App() {
   return (
     <ThemeProvider theme={myTheme}>
     <div className="App">
-      <ResponsiveDrawer></ResponsiveDrawer>
+      <Display/>
     </div>
     </ThemeProvider>
   );
