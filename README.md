@@ -1,6 +1,6 @@
-#This project is a leave management application developed using reactjs 
+This project is a leave management application developed using reactjs 
 -It is fully responsive and supports mobile, tablet and desktop view
-## Getting Started with Create React App
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
